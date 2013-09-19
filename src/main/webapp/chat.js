@@ -2,7 +2,7 @@ var websocket;
 
 function login() {
 
-    var wsUri = "ws://" + window.location.host + window.location.pathname + "hello/"  + nameField.value;
+    var wsUri = "ws://" + window.location.host + window.location.pathname + "chat/"  + nameField.value;
 
     websocket = new WebSocket(wsUri);
 
