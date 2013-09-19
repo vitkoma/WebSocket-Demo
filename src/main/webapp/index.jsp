@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>WebSocket Test</title>
+    <title>Chat (WebSocket Test)</title>
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
 
@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <h1>Chat</h1>
+
     <div class="row">
       <div id="login" class="well col-md-4">
           <input id="nameField" name="name" class="form-control"/>
